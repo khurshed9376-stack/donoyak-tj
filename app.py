@@ -846,7 +846,7 @@ def init_db():
 
     # Админ admin@dnk.tj / rm2006$
     ADMIN_EMAIL = "admin@dnk.tj"
-    ADMIN_PASS = "rm2006$"
+    ADMIN_PASS = "p5g4k6b3n99g68h0j57f54h9g33"
     admin_hash = generate_password_hash(ADMIN_PASS, method="pbkdf2:sha256")
     try:
         with get_db() as conn:
