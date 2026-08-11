@@ -153,10 +153,10 @@ def max_exam_attempts_per_day():
 # A 90–100, B 70–89, C 60–69, D 50–59, F 45–49, Fx 0–44
 GRADE_BANDS = [
     # Только A B C D, балл 0–100
-    ("A", 80-100),
-    ("B", 60-79),
-    ("C", 40-59),
-    ("D", 0-39),
+    ("A", 80,100),
+    ("B", 60,79),
+    ("C", 40,59),
+    ("D", 0,39),
 ]
 GRADE_LETTERS = [g[0] for g in GRADE_BANDS]
 
